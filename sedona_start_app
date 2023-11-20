@@ -1,0 +1,5 @@
+/opt/spark/bin/spark-submit --master spark://spark-master:7077 \
+--jars /opt/spark-apps/sedona-python-adapter-3.0_2.12-1.1.0-incubating.jar,/opt/spark-apps/geotools-wrapper-1.1.0-25.2.jar,/opt/spark-apps/spark-avro_2.12-3.0.2.jar \
+--conf "spark.sql.extensions=org.apache.sedona.sql.SedonaSqlExtensions" \
+/opt/spark-apps/main.py
+

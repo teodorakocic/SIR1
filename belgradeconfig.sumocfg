@@ -1,0 +1,12 @@
+<configuration>
+
+<input>
+<net-file value="belgrade.net.xml"/>
+<route-files value="belgrade.rou.xml"/>
+</input>
+<time>
+<begin value="0"/>
+<end value="660"/>
+</time>
+
+</configuration>
